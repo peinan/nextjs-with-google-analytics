@@ -1,4 +1,4 @@
-import { Component, React } from 'react'
+import { Component } from 'react'
 import Page from '../components/Page'
 
 import * as gtag from '../lib/gtag'

@@ -1,6 +1,6 @@
 type ContactEvent = {
   action: 'submit_form'
-  category: 'contact'
+  category: 'Contact'
   label: string
 }
 
