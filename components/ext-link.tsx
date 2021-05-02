@@ -5,13 +5,8 @@ const ExtLink = (props) => {
     console.log(`Accessing external link: "${props.target.innerText}" ${props.target.href}`)
     gtag.event({
       action: 'click',
-      category: 'other',
-      label: JSON.stringify(
-        {
-          text: props.target.innerText,
-          url: props.target.href
-        }
-      )
+      category: 'sns',
+      label: props.target.innerText,
     })
   }
 

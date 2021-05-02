@@ -10,4 +10,10 @@ type ClickEvent = {
   label: string
 }
 
-export type Event = ContactEvent | ClickEvent
+type ExtLinkEvent = {
+  action: 'click'
+  category: 'sns' | 'article'
+  label: string
+}
+
+export type Event = ContactEvent | ClickEvent | ExtLinkEvent
