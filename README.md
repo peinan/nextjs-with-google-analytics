@@ -1,21 +1,11 @@
-# Example app with analytics
+# Example app with Google Analytics
 
-This example shows how to use [Next.js](https://github.com/vercel/next.js) along with [Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs/). A custom [\_document](https://nextjs.org/docs/advanced-features/custom-document) is used to inject [tracking snippet](https://developers.google.com/analytics/devguides/collection/gtagjs/) and track [pageviews](https://developers.google.com/analytics/devguides/collection/gtagjs/pages) and [event](https://developers.google.com/analytics/devguides/collection/gtagjs/events).
+NextJS + TypeScript + Google Analytics で簡単な Web アプリ
 
-## Deploy your own
+- [Demo Page](https://peinan-nextjs-with-google-analytics.vercel.app/)
+- [Google Analytics](https://analytics.google.com/analytics/web)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## 参考
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-google-analytics&project-name=with-google-analytics&repository-name=with-google-analytics)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example::
-
-```bash
-npx create-next-app --example with-google-analytics with-google-analytics-app
-# or
-yarn create next-app --example with-google-analytics with-google-analytics-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- [next.js/examples/with-google-analytics at canary · vercel/next.js](https://github.com/vercel/next.js/tree/canary/examples/with-google-analytics)
+- [Next.jsでGoogle Analyticsを使えるようにする - パンダのプログラミングブログ](https://panda-program.com/posts/nextjs-google-analytics#_documentjsx%E3%81%ABga%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%82%80)
