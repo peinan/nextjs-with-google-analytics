@@ -14,7 +14,7 @@ export default function About() {
         </ExtLink>
       </div>
       <div>
-        <ExtLink href="https://peinan.cc">
+        <ExtLink href="https://peinan.cc" ga_category="sns" ga_label="about">
           ext-link, outernal
         </ExtLink>
       </div>

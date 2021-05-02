@@ -4,16 +4,10 @@ type ContactEvent = {
   label: string
 }
 
-type ClickEvent = {
-  action: 'click'
-  category: 'other'
-  label: string
-}
-
 type ExtLinkEvent = {
   action: 'click'
-  category: 'sns' | 'article'
+  category: string
   label: string
 }
 
-export type Event = ContactEvent | ClickEvent | ExtLinkEvent
+export type Event = ContactEvent | ExtLinkEvent

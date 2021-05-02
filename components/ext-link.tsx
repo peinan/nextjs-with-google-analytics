@@ -1,12 +1,14 @@
 import * as gtag from '../lib/gtag'
 
 const ExtLink = (props) => {
-  const handleClick = (props) => {
-    console.log(`Accessing external link: "${props.target.innerText}" ${props.target.href}`)
+  const handleClick = (e) => {
+    console.log(props)
+    console.log(e)
+    console.log(`Accessing external link: "${e.target.innerText}" ${props.href}`)
     gtag.event({
       action: 'click',
-      category: 'sns',
-      label: props.target.innerText,
+      category: `ExtLink - ${props.ga_category}`,
+      label: `${props.ga_label} - ${e.target.innerText}`,
     })
   }
 
