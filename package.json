@@ -6,9 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^10.2.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "@types/node": "15.0.1"
   },
   "license": "MIT"
 }

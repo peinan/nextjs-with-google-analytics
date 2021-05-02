@@ -5,6 +5,10 @@ import * as gtag from '../lib/gtag'
 const App = ({ Component, pageProps }) => {
   const router = useRouter()
   useEffect(() => {
+    if (!gtag.existsGaId) {
+      return
+    }
+
     const handleRouteChange = (url) => {
       gtag.pageview(url)
     }
